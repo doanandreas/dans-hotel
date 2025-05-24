@@ -16,7 +16,7 @@ describe('RoomsController', () => {
 
   describe('root', () => {
     it('should return "Hello World!"', () => {
-      expect(roomsController.getRooms()).toBe('Hello World!');
+      expect(roomsController.getAllRooms()).toBe('Hello World!');
     });
   });
 });
